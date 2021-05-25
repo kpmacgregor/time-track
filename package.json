@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "time-track",
   "version": "1.0.0",
-  "description": "",
+  "description": "Track time spent on a project.",
   "main": "main.js",
   "scripts": {
     "start": "run-script-os",
