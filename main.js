@@ -67,6 +67,7 @@ function shutDown() {
   const exit = () => { process.exit(); }
   process.on('exit', stop);
   process.on('SIGINT', exit);
+  process.on('SIGHUP', exit);
   // process.on('SIGTERM', exit);
 }
 
